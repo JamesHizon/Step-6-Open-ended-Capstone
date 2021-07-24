@@ -29,11 +29,13 @@ for bucket in s3.buckets.all():
 ```
 
 ### Uploaded Files
-This repository will include the following 3 items:
+This repository will include the following 4 main items:
 1. Jupyter Notebook file that I used via EMR Notebook on AWS
 2. Snapshot of AWS EMR Cluster creation
 3. Snapshot of AWS EMR Notebook
 4. Snapshot of AWS S3 Bucket used to store data
+
+Three other files are used to showcase an issue that I tried to automate, since I end up with folders created while saving using PySpark API. I wanted to get rid of these folders while transforming data and removing it from the folder created. I was able to do this originally, but ran into some issue later on (maybe some issue because of EMR Cluster). Thus, I decided to just manually delete for sake of time.
 
 ### Challenge:
 There wasn't sufficient space on EMR Cluster to download all of first ~1000 files, so I tried to start a new cluster to begin trying to download the next 1000 files. Thus, there will be a gap in regards to dates, but the cool thing is that I can still try and get nearly 100 GBs of data uploaded as well as diversity of data ranging from first six months of 2021 and span to 6 months within the intersection of the end of 2019 and early 2020.
