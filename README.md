@@ -38,3 +38,5 @@ This repository will include the following 3 items:
 ### Challenge:
 There wasn't sufficient space on EMR Cluster to download all of first ~1000 files, so I tried to start a new cluster to begin trying to download the next 1000 files. Thus, there will be a gap in regards to dates, but the cool thing is that I can still try and get nearly 100 GBs of data uploaded as well as diversity of data ranging from first six months of 2021 and span to 6 months within the intersection of the end of 2019 and early 2020.
 
+If I do want to ensure that I can efficiently extract, load and transform 100s of GBs or more data using Spark via EMR Cluster, I would need to ensure that I update my cluster configuration settings. Yet, because of my finances and time are limited (and given that this is just for developing my DE Project and understanding of how to integrate big data technology to develop a large-scale data pipeline), the most cost-effective approach I can think of is to merely automate extraction of nearly 100 GBs of data, and transform nearly 1-2 GBs of data to be analyzed using AWS Glue, Athena and Quicksight.
+
