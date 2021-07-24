@@ -37,4 +37,4 @@ This repository will include the following 3 items:
 
 ### Challenge:
 There wasn't sufficient space on EMR Cluster to download all of first ~1000 files, so I tried to start a new cluster to begin trying to download the next 1000 files. Thus, there will be a gap in regards to dates, but the cool thing is that I can still try and get nearly 100 GBs of data uploaded as well as diversity of data ranging from first six months of 2021 and span to 6 months within the intersection of the end of 2019 and early 2020.
-I may, however, only end up dealing with as much data as I can possibly deal with, when doing the Spark data transformations given the specified EMR Cluster configuration settings.
+
